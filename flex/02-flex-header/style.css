@@ -1,6 +1,42 @@
+.header {
+  padding: 10px;
+  font-family: monospace;
+}
+
+.left-links,
+.left-links ul,
+.right-links,
+.right-links ul {
+  display: flex;
+  flex: 1;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-links ul,
+.right-links ul {
+  align-items: center;
+  gap: 20px;
+  padding: 0px;
+}
+
+.left-links ul {
+  justify-content: flex-start;
+}
+
+.right-links ul {
+  justify-content: flex-end;
+}
+
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
