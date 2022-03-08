@@ -20,6 +20,29 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /*border: 5px solid blue;*/
+  display: flex;
+}
+
+.modal .section {
+  /*border: 5px solid red;*/
+  margin: 10px;
+}
+
+.header-section {
+  /*border: 5px solid orange;*/
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  font-size: larger;
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+
+.text {
+  padding-bottom: 15px;
 }
 
 .icon {
